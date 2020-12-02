@@ -1,0 +1,55 @@
+.tool-bar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger {
+
+    background-color: yellow;
+    width: 15%;
+    height: 90%;
+}
+
+.tool-panel {
+    width: 80%;
+    height: 90%;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+}
+
+.tool {
+    height: 90%;
+    position: relative;
+}
+
+.tool-img {
+    height: 90%;
+}
+
+.tool-options{
+    position: absolute;
+    top: 75px;
+    left: -61px;
+    height: 6rem;
+    width: 9rem;
+    display: none;
+}
+.slider {
+ height: 30%;
+ border: 1px solid;  
+}
+
+.colors{
+    height: 63%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.color{
+    border-radius: 50%;
+    height: 63%;
+    width: 26%;
+}
